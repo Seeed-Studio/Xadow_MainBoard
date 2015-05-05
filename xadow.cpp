@@ -86,7 +86,7 @@ unsigned char xadow::getChrgState()
     
     if(!Temp)
     {
-        return NOCHARGE;
+        return CHARGING;
     }
     Temp = DONEpin & DONEbit;
     if(!Temp)
