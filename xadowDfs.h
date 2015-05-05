@@ -31,8 +31,8 @@
 #define PINCHRGING          A2
 
 // about charge
-#define CHRGbit 0x10
-#define DONEbit 0x20
+#define CHRGbit _BV(PF5)
+#define DONEbit _BV(PF4)
 #define CHRGdir DDRF
 #define DONEdir DDRF
 #define CHRGpin PINF
